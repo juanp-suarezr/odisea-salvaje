@@ -10,9 +10,9 @@
 
         <div class="justify-end my-auto hidden sm:block text-white text-xl">
           <router-link class="px-4 hover:underline" to="/">Inicio</router-link>
-          <router-link class="px-4 hover:underline" to="/about">Quienes somos</router-link>
-          <router-link class="px-4 hover:underline" to="/contactenos">Contáctenos</router-link>
-          <router-link class="px-4 hover:underline" to="/register">Blog</router-link>
+          <router-link class="px-4 hover:underline" :class="{ 'bg-secondary p-5': route.path === '/about',}" to="/about">Quienes somos</router-link>
+          <router-link class="px-4 hover:underline" :class="{ 'bg-secondary p-5': route.path === '/contactenos',}" to="/contactenos">Contáctenos</router-link>
+          <router-link class="px-4 hover:underline" :class="{ 'bg-secondary p-5': route.path === '/blog',}" to="/blog">Blog</router-link>
         </div>
 
       </nav>
