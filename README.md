@@ -1,7 +1,13 @@
 # Odisea salvaje
 
 # CLONAR REPO PASOS
-#clic en el boton "<> code"
+---
+clic en el boton "<> code"
+---
+
+##cilc en github Desktop
+![image](https://github.com/juanp-suarezr/odisea-salvaje/assets/86664381/53f55682-54e2-451b-b8fe-bca86fdfce2e)
+
 
 ## Project setup
 ```
