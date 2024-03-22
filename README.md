@@ -1,4 +1,7 @@
-# agendamientos_futbol
+# Odisea salvaje
+
+# CLONAR REPO PASOS
+#clic en el boton "<> code"
 
 ## Project setup
 ```
