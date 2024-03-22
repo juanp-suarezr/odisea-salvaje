@@ -1,8 +1,8 @@
 <template>
   <div class="overflow-x-hidden">
 
-    <div class="fondo flex flex-col">
-      <nav class="w-full flex justify-between px-4 py-4 bg-transparent">
+    <div class="flex flex-col" :class="isHomeRoute ? 'fondo ' : '' ">
+      <nav class="w-full flex justify-between px-4 py-4 bg-transparent" :class="isHomeRoute ? '' : '!bg-option2' ">
 
         <div class="logo">
           <h2 class="text-white text-4xl font-bold">ODISEA SALVAJE</h2>
@@ -10,14 +10,14 @@
 
         <div class="justify-end my-auto hidden sm:block text-white text-xl">
           <router-link class="px-4 hover:underline" to="/">Inicio</router-link>
-          <router-link class="px-4 hover:underline" to="/canchas">Quienes somos</router-link>
-          <router-link class="px-4 hover:underline" to="/about">Contáctenos</router-link>
+          <router-link class="px-4 hover:underline" to="/about">Quienes somos</router-link>
+          <router-link class="px-4 hover:underline" to="/contactenos">Contáctenos</router-link>
           <router-link class="px-4 hover:underline" to="/register">Blog</router-link>
         </div>
 
       </nav>
 
-      <div class="m-auto justify-center w-full flex flex-col">
+      <div v-if="isHomeRoute" class="m-auto justify-center w-full flex flex-col">
         <h1 class="text-[80px] text-center text-white mx-auto w-3/6 font-bold leading-none">Colombia Extrema</h1>
         <h2 class="text-xl mt-4 text-center text-white mx-auto w-[50%]">Donde la adrenalina y el potencial se unen en deportes extremos que te dejarán sin aliento.</h2>
 
@@ -50,11 +50,16 @@ import { useRoute } from 'vue-router';
 
 
 const route = useRoute();
+const isHomeRoute = ref(route.path === '/');
+
+watch(route, (to, from) => {
+  isHomeRoute.value = to.path === '/';
+});
 
 
 </script>
 
-<style scoped>
+<style>
 #app {
   overflow-x: hidden;
 }
