@@ -6,32 +6,38 @@
       <!-- next prev -->
       <div class="buttons flex justify-center py-2 gap-4">
         <!-- ANDINA -->
-        <button @click="carrousel(1)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125" :class="region == 'and' ? '!bg-option2' : ''" >
+        <button @click="carrousel(1)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125"
+          :class="region == 'and' ? '!bg-option2' : ''">
           Andina
         </button>
         <!-- AMAZONÍA -->
-        <button @click="carrousel(2)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125" :class="region == 'amz' ? '!bg-option2' : ''" >
+        <button @click="carrousel(2)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125"
+          :class="region == 'amz' ? '!bg-option2' : ''">
           Amazonía
         </button>
         <!-- CARIBE -->
-        <button @click="carrousel(3)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125" :class="region == 'car' ? '!bg-option2' : ''" >
+        <button @click="carrousel(3)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125"
+          :class="region == 'car' ? '!bg-option2' : ''">
           Caribe
         </button>
         <!-- INSULAR -->
-        <button @click="carrousel(4)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125" :class="region == 'ins' ? '!bg-option2' : ''" >
+        <button @click="carrousel(4)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125"
+          :class="region == 'ins' ? '!bg-option2' : ''">
           Insular
         </button>
         <!-- ORINOQUIA -->
-        <button @click="carrousel(5)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125" :class="region == 'orin' ? '!bg-option2' : ''" >
+        <button @click="carrousel(5)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125"
+          :class="region == 'orin' ? '!bg-option2' : ''">
           Orinoquía
         </button>
         <!-- Pacifico -->
-        <button @click="carrousel(6)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125" :class="region == 'pac' ? '!bg-option2' : ''" >
+        <button @click="carrousel(6)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125"
+          :class="region == 'pac' ? '!bg-option2' : ''">
           Pacífico
         </button>
       </div>
 
-      
+
 
       <!-- carousel Andina -->
       <div class="carousel slide slide1">
@@ -46,7 +52,9 @@
               <div class="topic !text-white">Parapente</div>
               <div class="des bg-secondary py-1 px-2">
                 <!-- lorem 50 -->
-                Deporte en el que una persona despega desde una pendiente con una vela especialmente diseñada y planea en el aire utilizando corrientes térmicas y ascendentes. Disfrutando de vistas panorámicas y la sensación de libertad que ofrece volar.
+                Deporte en el que una persona despega desde una pendiente con una vela especialmente diseñada y planea
+                en el aire utilizando corrientes térmicas y ascendentes. Disfrutando de vistas panorámicas y la
+                sensación de libertad que ofrece volar.
 
               </div>
               <div class="buttons">
@@ -62,39 +70,38 @@
               <div class="title text-secondary font-bold">ANDINA</div>
               <div class="topic !text-white">Escalada en roca</div>
               <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+                consiste en ascender superficies rocosas utilizando técnicas de equilibrio, fuerza y concentración. En
+                la región andina, hay una gran variedad de lugares para practicar la escalada en roca, desde imponentes
+                picos de montañas hasta formaciones rocosas únicas.
               </div>
               <div class="buttons">
                 <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
+          <!-- senderismo -->
           <div class="item deporte item3 hidden">
             <img src="../../src/assets/img/andina/senderismo.jpg">
             <div class="content">
-              <div class="author !text-white">REGIÓN</div>
+              <div class="author !text-primary">REGIÓN</div>
               <div class="title text-option3">ANDINA</div>
               <div class="topic !text-option2">Senderismo</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="des bg-primary py-1 px-2">
+                ofrece una experiencia única en la naturaleza. Los senderos serpentean a través de paisajes
+                impresionantes, desde valles hasta cumbres, con opciones para todos los niveles. Es una forma
+                emocionante de conectar con la naturaleza y explorar uno de los entornos más diversos del país.
               </div>
               <div class="buttons">
                 <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
-          
+
         </div>
         <!-- list thumnail -->
         <div class="thumbnail justify-end">
           <div class="item" @click="changeDeporte(1)">
-            <img src="../../src/assets/img/andina/parapente.jpg">
+            <img src="../../src/assets/img/andina/parapente2.jpg">
             <div class="content">
               <div class="title">
                 Parapente
@@ -126,7 +133,7 @@
               </div>
             </div>
           </div>
-          
+
         </div>
 
 
@@ -136,16 +143,17 @@
       <div class="carousel slide slide2 hidden">
         <!-- list item -->
         <div class="list">
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+          <!-- lucha tradicional -->
+          <div class="item deporte item1">
+            <img src="../../src/assets/img/amazonia/lucha.jpg">
             <div class="content">
-              <div class="author text-secondary">REGIÓN</div>
-              <div class="title text-secondary">PACIFICO</div>
-              <div class="topic !text-white">Avistamiento de ballenas</div>
+              <div class="author text-white">REGIÓN</div>
+              <div class="title text-secondary">AMAZONÍA</div>
+              <div class="topic !text-white">Lucha tradicional</div>
               <div class="des bg-secondary py-1 px-2">
-                <!-- lorem 50 -->
-                Durante los meses de julio a octubre, las aguas del Pacifico colombiano son visitadas por ballenas
-                jorobadas que migran desde el hemisferio sur en busca de aguas más cálidas para reproducirse.
+
+                Algunas comunidades indígenas practican estilos de lucha tradicionales que forman parte de su cultura
+                ancestral.
 
               </div>
               <div class="buttons">
@@ -153,107 +161,77 @@
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <!-- Tiro con arco -->
+          <div class="item deporte item2 hidden">
+            <img src="../../src/assets/img/amazonia/Tiro_con_arco.jpg">
             <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="author">REGION</div>
+              <div class="title text-option3">AMAZONÍA</div>
+              <div class="topic !text-white">Tiro con arco</div>
+              <div class="des bg-primary py-1 px-2">
+
+                El tiro con arco es una habilidad importante para la caza y la pesca en la Amazonía, y a menudo se
+                convierte en un deporte de competición entre las comunidades.
+
               </div>
               <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/fondo.jpg">
+          <!-- Caza y pesca deportiva -->
+          <div class="item deporte item3 hidden">
+            <img src="../../src/assets/img/amazonia/caza.jpg">
             <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="author">REGION</div>
+              <div class="title font-bold">AMAZONÍA</div>
+              <div class="topic !text-secondary font-bold">Caza y pesca</div>
+              <div class="des bg-option3 py-1 px-2">
+                Aunque no son deportes convencionales, la caza y la pesca son actividades fundamentales para muchas
+                comunidades amazónicas y también pueden ser practicadas como deportes recreativos.
               </div>
               <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="../../src/assets/img/fondo.jpg">
-            <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
-              </div>
-              <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
         </div>
         <!-- list thumnail -->
-        <div class="thumbnail">
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+        <div class="thumbnail justify-end">
+          <div class="item" @click="changeDeporte(1)">
+            <img src="../../src/assets/img/amazonia/lucha.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Lucha tradicional
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <div class="item" @click="changeDeporte(2)">
+            <img src="../../src/assets/img/amazonia/Tiro_con_arco.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Tiro con arco
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+          <div class="item" @click="changeDeporte(3)">
+            <img src="../../src/assets/img/amazonia/caza.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Caza y pesca deportiva
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
-            <div class="content">
-              <div class="title">
-                Name Slider
-              </div>
-              <div class="description">
-                Description
-              </div>
-            </div>
-          </div>
+
         </div>
 
 
@@ -263,16 +241,18 @@
       <div class="carousel slide slide3 hidden">
         <!-- list item -->
         <div class="list">
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+          <!-- kitesurf -->
+          <div class="item deporte item1">
+            <img src="../../src/assets/img/caribe/kitesurf.jpg">
             <div class="content">
-              <div class="author text-secondary">REGIÓN</div>
-              <div class="title text-secondary">PACIFICO</div>
-              <div class="topic !text-white">Avistamiento de ballenas</div>
-              <div class="des bg-secondary py-1 px-2">
+              <div class="author text-white">REGIÓN</div>
+              <div class="title text-secondary">CARIBE</div>
+              <div class="topic !text-option3">Kitesurf</div>
+              <div class="des bg-secondar py-1 px-2">
                 <!-- lorem 50 -->
-                Durante los meses de julio a octubre, las aguas del Pacifico colombiano son visitadas por ballenas
-                jorobadas que migran desde el hemisferio sur en busca de aguas más cálidas para reproducirse.
+                Deporte acuático que combina el surf con una cometa de tracción. Los practicantes son impulsados por el
+                viento mientras se deslizan sobre el agua en una tabla especial, utilizando la cometa para controlar la
+                velocidad y la dirección.
 
               </div>
               <div class="buttons">
@@ -280,107 +260,78 @@
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <!-- Windsurf -->
+          <div class="item deporte item2 hidden">
+            <img src="../../src/assets/img/caribe/windsurf.jpg">
             <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="author text-primary font-bold">REGION</div>
+              <div class="title text-secondary">CARIBE</div>
+              <div class="topic !text-option3">Windsurf</div>
+              <div class="des bg-primary">
+                Deporte acuático en el que los participantes se deslizan sobre el agua en una tabla impulsada por el
+                viento. Utilizan una vela montada en un mástil para aprovechar la fuerza del viento y controlar la
+                dirección y la velocidad.
               </div>
               <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/fondo.jpg">
+          <!-- canyoning -->
+          <div class="item deporte item3 hidden">
+            <img src="../../src/assets/img/caribe/canyoning.jpg">
             <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="author text-secondary font-bold">REGION</div>
+              <div class="title">CARIBE</div>
+              <div class="topic !text-option3 !font-bold">Canyoning</div>
+              <div class="des bg-primary">
+                Deporte que consiste en descender por cañones y gargantas utilizando técnicas como rappel, saltos,
+                natación y caminatas. En el Caribe colombiano, esta actividad puede llevarse a cabo en entornos
+                naturales impresionantes, como cascadas y cañones.
               </div>
               <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/fondo.jpg">
-            <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
-              </div>
-              <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
-              </div>
-            </div>
-          </div>
+
         </div>
         <!-- list thumnail -->
-        <div class="thumbnail">
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+        <div class="thumbnail justify-end">
+          <div class="item" @click="changeDeporte(1)">
+            <img src="../../src/assets/img/caribe/kitesurf.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Kitesurf
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <div class="item" @click="changeDeporte(2)">
+            <img src="../../src/assets/img/caribe/windsurf.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Windsurf
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+          <div class="item" @click="changeDeporte(3)">
+            <img src="../../src/assets/img/caribe/canyoning.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Caza y pesca deportiva
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
-            <div class="content">
-              <div class="title">
-                Name Slider
-              </div>
-              <div class="description">
-                Description
-              </div>
-            </div>
-          </div>
+
         </div>
 
 
@@ -644,7 +595,7 @@
       <div class="carousel slide slide6 hidden">
         <!-- list item -->
         <div class="list">
-          <div class="item item6">
+          <div class="item deporte item1">
             <img src="../../src/assets/img/pacifico/ballenas.jpg">
             <div class="content">
               <div class="author text-secondary">REGIÓN</div>
@@ -747,7 +698,7 @@ import $ from 'jquery';
 import { ref, watch } from 'vue';
 
 const region = ref('and');
-let numSlide;
+let numSlide = 0;
 
 watch(region, (value) => {
 
@@ -762,6 +713,8 @@ const carrousel = num => {
   console.log("entro");
 
   $('.slide').addClass('hidden');
+  $('.deporte').addClass('hidden');
+  $('.item1').removeClass('hidden');
 
   switch (num) {
     case 1:
@@ -774,22 +727,22 @@ const carrousel = num => {
       region.value = 'amz';
       break;
 
-      case 3:
+    case 3:
       $('.slide3').removeClass('hidden');
       region.value = 'car';
       break;
 
-      case 4:
+    case 4:
       $('.slide4').removeClass('hidden');
       region.value = 'ins';
       break;
 
-      case 5:
+    case 5:
       $('.slide5').removeClass('hidden');
       region.value = 'orin';
       break;
 
-      case 6:
+    case 6:
       $('.slide6').removeClass('hidden');
       region.value = 'pac';
       break;
@@ -801,7 +754,7 @@ const carrousel = num => {
 }
 
 
-//cambiar slide regiones
+//cambiar slide deportes
 const changeDeporte = num => {
   console.log("entro");
 
@@ -810,32 +763,16 @@ const changeDeporte = num => {
   switch (num) {
     case 1:
       $('.item1').removeClass('hidden');
-      
+
       break;
 
     case 2:
       $('.item2').removeClass('hidden');
-      
+
       break;
 
-      case 3:
+    case 3:
       $('.item3').removeClass('hidden');
-      
-      break;
-
-      case 4:
-      $('.item4').removeClass('hidden');
-      
-      break;
-
-      case 5:
-      $('.item5').removeClass('hidden');
-      
-      break;
-
-      case 6:
-      $('.item6').removeClass('hidden');
-      
       break;
 
     default:
@@ -846,18 +783,7 @@ const changeDeporte = num => {
 
 
 
-// Cambiar automáticamente cada 5 segundos
-// setInterval(() => {
-  
-//   numSlide +=1;
 
-//   changeDeporte(numSlide);
-
-//   if (numSlide == 4) {
-//     numSlide = 0;
-//   }
-
-// }, 7000);
 
 
 
