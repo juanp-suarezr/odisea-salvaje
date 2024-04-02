@@ -37,8 +37,6 @@
         </button>
       </div>
 
-
-
       <!-- carousel Andina -->
       <div class="carousel slide slide1">
         <!-- list item -->
@@ -341,16 +339,19 @@
       <div class="carousel slide slide4 hidden">
         <!-- list item -->
         <div class="list">
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+          <!-- Exploración de cuevas -->
+          <div class="item deporte item1">
+            <img src="../../src/assets/img/insular/Cuevas.jpg">
             <div class="content">
-              <div class="author text-secondary">REGIÓN</div>
-              <div class="title text-secondary">PACIFICO</div>
-              <div class="topic !text-white">Avistamiento de ballenas</div>
-              <div class="des bg-secondary py-1 px-2">
+              <div class="author text-white">REGIÓN</div>
+              <div class="title text-secondary">INSULAR</div>
+              <div class="topic !text-option3">Exploración de cuevas</div>
+              <div class="des bg-secondar py-1 px-2">
                 <!-- lorem 50 -->
-                Durante los meses de julio a octubre, las aguas del Pacifico colombiano son visitadas por ballenas
-                jorobadas que migran desde el hemisferio sur en busca de aguas más cálidas para reproducirse.
+                La exploración de cuevas en Colombia presenta desafíos únicos debido a la diversidad geográfica y
+                climática del país, así como a la necesidad de cuidar el frágil ecosistema subterráneo. Los espeleólogos
+                deben estar bien preparados y equipados para enfrentar condiciones adversas y respetar las regulaciones
+                locales para preservar estos valiosos entornos naturales.
 
               </div>
               <div class="buttons">
@@ -358,107 +359,80 @@
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <!-- Saltos -->
+          <div class="item deporte item2 hidden">
+            <img src="../../src/assets/img/insular/Salto.png">
             <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="author text-primary font-bold">REGION</div>
+              <div class="title text-secondary">INSULAR</div>
+              <div class="topic !text-option3">SALTOS DE ACANTILADOS</div>
+              <div class="des bg-primary">
+                Los saltos de acantilados en Colombia no solo ofrecen la emoción de lanzarse al vacío desde alturas
+                impresionantes, sino también la oportunidad de disfrutar de vistas panorámicas espectaculares y de
+                sumergirse en aguas cristalinas. Muchos de estos sitios son destinos turísticos populares, donde los
+                visitantes pueden experimentar la combinación única de aventura y belleza natural que ofrece Colombia.
               </div>
               <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/fondo.jpg">
+          <!-- esclar -->
+          <div class="item deporte item3 hidden">
+            <img src="../../src/assets/img/insular/escalar.jpg">
             <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="author text-secondary font-bold">REGION</div>
+              <div class="title">INSULAR</div>
+              <div class="topic !text-option3 !font-bold">ESCALAR</div>
+              <div class="des bg-primary">
+                Los escaladores pueden encontrar una variedad de estilos de escalada, desde rutas deportivas bien
+                equipadas hasta desafiantes ascensos tradicionales en grietas y fisuras naturales. Además, muchos
+                lugares de escalada en Colombia ofrecen opciones para escaladores de todos los niveles, desde
+                principiantes hasta expertos.
               </div>
               <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/fondo.jpg">
-            <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
-              </div>
-              <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
-              </div>
-            </div>
-          </div>
+
         </div>
         <!-- list thumnail -->
-        <div class="thumbnail">
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+        <div class="thumbnail justify-end">
+          <div class="item" @click="changeDeporte(1)">
+            <img src="../../src/assets/img/insular/Cuevas.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Kitesurf
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <div class="item" @click="changeDeporte(2)">
+            <img src="../../src/assets/img/insular/Salto.png">
             <div class="content">
               <div class="title">
-                Name Slider
+                Windsurf
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+          <div class="item" @click="changeDeporte(3)">
+            <img src="../../src/assets/img/insular/escalar.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Caza y pesca deportiva
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
-            <div class="content">
-              <div class="title">
-                Name Slider
-              </div>
-              <div class="description">
-                Description
-              </div>
-            </div>
-          </div>
+
         </div>
 
 
@@ -468,16 +442,19 @@
       <div class="carousel slide slide5 hidden">
         <!-- list item -->
         <div class="list">
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+          <!-- Rafting en aguas bravas: -->
+          <div class="item deporte item1">
+            <img src="../../src/assets/img/orinoquia/rafting.jpg">
             <div class="content">
-              <div class="author text-secondary">REGIÓN</div>
-              <div class="title text-secondary">PACIFICO</div>
-              <div class="topic !text-white">Avistamiento de ballenas</div>
-              <div class="des bg-secondary py-1 px-2">
+              <div class="author text-white">REGIÓN</div>
+              <div class="title text-secondary">ORINOQUIA</div>
+              <div class="topic !text-option3">Rafting en aguas bravas</div>
+              <div class="des bg-secondar py-1 px-2">
                 <!-- lorem 50 -->
-                Durante los meses de julio a octubre, las aguas del Pacifico colombiano son visitadas por ballenas
-                jorobadas que migran desde el hemisferio sur en busca de aguas más cálidas para reproducirse.
+                Los ríos de la región, como el Meta, el Guaviare y el Orinoco, ofrecen
+                emocionantes tramos de aguas rápidas ideales para el rafting. Esta actividad permite a los participantes
+                navegar por rápidos y desafiantes tramos de río en balsas inflables, brindando una experiencia
+                emocionante en medio de paisajes naturales impresionantes.
 
               </div>
               <div class="buttons">
@@ -485,107 +462,79 @@
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <!-- Pesca -->
+          <div class="item deporte item2 hidden">
+            <img src="../../src/assets/img/orinoquia/pesca.png">
             <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="author text-primary font-bold">REGION</div>
+              <div class="title text-secondary">ORINOQUIA</div>
+              <div class="topic !text-option3">Pesca deportiva</div>
+              <div class="des bg-primary">
+                La Orinoquia es conocida por sus ríos ricos en peces, como el dorado, el pavón y el bagre. La pesca
+                deportiva en esta región ofrece la oportunidad de pescar especies de agua dulce en un entorno natural
+                único, proporcionando una experiencia desafiante y gratificante para los amantes de la pesca.
               </div>
               <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/fondo.jpg">
+          <!-- Caminatas -->
+          <div class="item deporte item3 hidden">
+            <img src="../../src/assets/img/orinoquia/Caminatas.jpg">
             <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="author text-secondary font-bold">REGION</div>
+              <div class="title">ORINOQUIA</div>
+              <div class="topic !text-option3 !font-bold">Caminatas y expediciones en la sabana</div>
+              <div class="des bg-primary">
+                Las extensas llanuras de la Orinoquia ofrecen oportunidades para
+                realizar caminatas y expediciones a pie en un entorno natural único. Los viajeros pueden explorar la
+                sabana, observar la vida silvestre y disfrutar de la tranquilidad y la belleza de los paisajes abiertos
+                de la región.
               </div>
               <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/fondo.jpg">
-            <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
-              </div>
-              <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
-              </div>
-            </div>
-          </div>
+
         </div>
         <!-- list thumnail -->
-        <div class="thumbnail">
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+        <div class="thumbnail justify-end">
+          <div class="item" @click="changeDeporte(1)">
+            <img src="../../src/assets/img/orinoquia/rafting.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Kitesurf
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <div class="item" @click="changeDeporte(2)">
+            <img src="../../src/assets/img/orinoquia/pesca.png">
             <div class="content">
               <div class="title">
-                Name Slider
+                Windsurf
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+          <div class="item" @click="changeDeporte(3)">
+            <img src="../../src/assets/img/orinoquia/Caminatas.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Caza y pesca deportiva
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
-            <div class="content">
-              <div class="title">
-                Name Slider
-              </div>
-              <div class="description">
-                Description
-              </div>
-            </div>
-          </div>
+
         </div>
 
 
@@ -595,16 +544,19 @@
       <div class="carousel slide slide6 hidden">
         <!-- list item -->
         <div class="list">
+          <!-- ballenas -->
           <div class="item deporte item1">
             <img src="../../src/assets/img/pacifico/ballenas.jpg">
             <div class="content">
-              <div class="author text-secondary">REGIÓN</div>
-              <div class="title text-secondary">PACIFICO</div>
-              <div class="topic !text-white !mt-1">Avistamiento de ballenas</div>
-              <div class="des bg-secondary py-1 px-2 lg:w-4/6">
+              <div class="author text-white">REGIÓN</div>
+              <div class="title text-secondary">PACIFICA</div>
+              <div class="topic !text-option3"> Avistamiento de ballenas</div>
+              <div class="des bg-secondar py-1 px-2">
                 <!-- lorem 50 -->
-                Durante los meses de julio a octubre, las aguas del Pacifico colombiano son visitadas por ballenas
-                jorobadas que migran desde el hemisferio sur en busca de aguas más cálidas para reproducirse.
+                Durante los meses de julio a octubre, las aguas del Pacífico colombiano son
+                visitadas por ballenas jorobadas que migran desde el hemisferio sur en busca de aguas más cálidas para
+                reproducirse. El avistamiento de ballenas es una actividad emocionante y única que permite a los
+                visitantes presenciar de cerca a estos majestuosos mamíferos marinos.
 
               </div>
               <div class="buttons">
@@ -612,83 +564,85 @@
               </div>
             </div>
           </div>
-          <div class="item item2 hidden">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <!-- surf -->
+          <div class="item deporte item2 hidden">
+            <img src="../../src/assets/img/pacifico/surf.jpg">
             <div class="content">
-              <div class="author">LUNDEV</div>
-              <div class="title">DESIGN SLIDER</div>
-              <div class="topic">ANIMAL</div>
-              <div class="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat,
-                itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-                doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
-                exercitationem eum aperiam illo illum laudantium?
+              <div class="author text-primary font-bold">REGION</div>
+              <div class="title text-secondary">PACIFICA</div>
+              <div class="topic !text-option3">Surf de olas grandes</div>
+              <div class="des bg-primary">
+                La costa del Pacífico colombiano es conocida por sus olas grandes y poderosas, lo
+                que la convierte en un destino ideal para los surfistas intrépidos que buscan emociones fuertes. Lugares
+                como El Valle del Cauca, Chocó y Nariño son populares entre los surfistas que buscan desafiar las olas
+                del Pacífico..
               </div>
               <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+              </div>
+            </div>
+          </div>
+          <!-- senderismo -->
+          <div class="item deporte item3 hidden">
+            <img src="../../src/assets/img/pacifico/senderismo.jpeg">
+            <div class="content">
+              <div class="author text-secondary font-bold">REGION</div>
+              <div class="title">PACIFICA</div>
+              <div class="topic !text-option3 !font-bold">Senderismo en la selva</div>
+              <div class="des bg-primary">
+                La región del Pacífico colombiano alberga una exuberante selva tropical llena de
+                biodiversidad. Realizar senderismo en la selva es una forma única de explorar este ecosistema único,
+                descubriendo cascadas, ríos, flora y fauna impresionantes en el proceso.
+              </div>
+              <div class="buttons">
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
               </div>
             </div>
           </div>
 
         </div>
         <!-- list thumnail -->
-        <div class="thumbnail">
-          <div class="item">
+        <div class="thumbnail justify-end">
+          <div class="item" @click="changeDeporte(1)">
             <img src="../../src/assets/img/pacifico/ballenas.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Kitesurf
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/insular/buceo.jpg">
+          <div class="item" @click="changeDeporte(2)">
+            <img src="../../src/assets/img/pacifico/surf.jpg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Windsurf
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
+          <div class="item" @click="changeDeporte(3)">
+            <img src="../../src/assets/img/pacifico/senderismo.jpeg">
             <div class="content">
               <div class="title">
-                Name Slider
+                Caza y pesca deportiva
               </div>
               <div class="description">
-                Description
+                Ver
               </div>
             </div>
           </div>
-          <div class="item">
-            <img src="../../src/assets/img/pacifico/ballenas.jpg">
-            <div class="content">
-              <div class="title">
-                Name Slider
-              </div>
-              <div class="description">
-                Description
-              </div>
-            </div>
-          </div>
+
         </div>
 
 
       </div>
 
-
-
     </div>
-
-
-
 
   </div>
 </template>

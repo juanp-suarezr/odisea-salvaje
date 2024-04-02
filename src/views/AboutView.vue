@@ -126,16 +126,13 @@
           <template #legend>
             <div class="flex align-items-center pl-2">
               <Avatar :image="hoover" shape="circle" />
-              <span class="font-bold">Hoover hernandez</span>
+              <span class="font-bold">Hoover Becerra</span>
             </div>
           </template>
           <p class="m-0 text-lg sm:text-xl md:text-2xl">
             <b class="text-base sm:text-lg md:text-xl text-gray-500">Analista y programador</b>
             <br>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, non molestiae voluptatem autem repellat
-            nisi
-            incidunt dolores! Odio magnam incidunt obcaecati accusamus sapiente. Dicta veniam magni aliquam impedit iste
-            voluptatem?
+            Capaz de trabajar tanto de manera independiente como en equipo, colaborando estrechamente con otros profesionales para alcanzar los objetivos establecidos. Su curiosidad innata y su disposición para aprender constantemente lo mantienen actualizado con las últimas tendencias y herramientas en el campo de la tecnología.
           </p>
         </Fieldset>
         <!-- Crsitian -->
@@ -184,6 +181,7 @@ import Fieldset from 'primevue/fieldset';
 import Avatar from 'primevue/avatar';
 import brayan from '/src/assets/img/avatar/brayan.jpg';
 import nata from '/src/assets/img/avatar/nata.jpg'
+import hoover from '/src/assets/img/avatar/hoover.jpeg'
 //FALTA IMAGEN DE DANI
 // import dani from '/src/assets/img/avatar/colocaraquilaextdelaIMG'
 //FALTA IMG DE CRIS
