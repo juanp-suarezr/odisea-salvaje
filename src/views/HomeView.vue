@@ -56,7 +56,7 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@
                 picos de montañas hasta formaciones rocosas únicas.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@
                 emocionante de conectar con la naturaleza y explorar uno de los entornos más diversos del país.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -173,7 +173,7 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -189,7 +189,7 @@
                 comunidades amazónicas y también pueden ser practicadas como deportes recreativos.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -254,7 +254,7 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@
                 dirección y la velocidad.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -288,7 +288,7 @@
                 naturales impresionantes, como cascadas y cañones.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -355,7 +355,7 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -373,7 +373,7 @@
                 visitantes pueden experimentar la combinación única de aventura y belleza natural que ofrece Colombia.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -391,7 +391,7 @@
                 principiantes hasta expertos.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -458,7 +458,7 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -475,7 +475,7 @@
                 único, proporcionando una experiencia desafiante y gratificante para los amantes de la pesca.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -493,7 +493,7 @@
                 de la región.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -560,7 +560,7 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -578,7 +578,7 @@
                 del Pacífico..
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>
@@ -595,7 +595,7 @@
                 descubriendo cascadas, ríos, flora y fauna impresionantes en el proceso.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125">INSCRIBIRSE</button>
+                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
               </div>
             </div>
           </div>

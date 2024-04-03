@@ -84,7 +84,7 @@
             </div>
           </template>
           <p class="m-0 text-lg sm:text-xl md:text-2xl">
-            <b class="text-base sm:text-lg md:text-xl text-gray-500">Técnico en sistemas</b>
+            <b class="text-base sm:text-lg md:text-xl text-gray-500">Profesional de sistemas</b>
             <br>
             Es una persona comprometida, con disposición, con sentido de pertencia y capacidad para
             trabajar en equipo e inclinación a la inovación, amante a las motos, tatuajes, al rap y al Downhill.
@@ -132,24 +132,31 @@
           <p class="m-0 text-lg sm:text-xl md:text-2xl">
             <b class="text-base sm:text-lg md:text-xl text-gray-500">Analista y programador</b>
             <br>
-            Capaz de trabajar tanto de manera independiente como en equipo, colaborando estrechamente con otros profesionales para alcanzar los objetivos establecidos. Su curiosidad innata y su disposición para aprender constantemente lo mantienen actualizado con las últimas tendencias y herramientas en el campo de la tecnología.
+            Capaz de trabajar tanto de manera independiente como en equipo, colaborando estrechamente con otros
+            profesionales
+            para alcanzar los objetivos establecidos. Su curiosidad innata y su disposición para aprender constantemente
+            lo
+            mantienen actualizado con las últimas tendencias y herramientas en el campo de la tecnología.
           </p>
         </Fieldset>
         <!-- Crsitian -->
         <Fieldset class="border-2 px-4 mb-4">
           <template #legend>
             <div class="flex align-items-center pl-2">
-              <Avatar :image="cristian" shape="circle" />
+              <Avatar :image="cris" shape="circle" />
               <span class="font-bold">Cristian ospina</span>
             </div>
           </template>
           <p class="m-0 text-lg sm:text-xl md:text-2xl">
-            <b class="text-base sm:text-lg md:text-xl text-gray-500">Técnico Electrisita</b>
+            <b class="text-base sm:text-lg md:text-xl text-gray-500">Tecnologo Electronico</b>
             <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident molestias eos hic reprehenderit deserunt
-            commodi
-            enim harum consequatur assumenda. Fugiat eaque quasi neque unde veritatis nulla mollitia porro beatae?
-            Delectus?
+            soy un hombre altamente motivado con experiencia demostrada en la tecnologia. Con 5 años de experiencia en
+            áreas de
+            camaras de seguridad, fábricas industriales, casinos, industrias de seguridad. Poseo habilidades sólidas en
+            la
+            electrónica, computación, electricidad, sistemas electricos industriales, así como una capacidad. soy
+            comunicador
+            eficaz y un colaborador en equipo con una pasión por la vida y los buenos momentos. Apasionado por las armas y skateboard.
           </p>
         </Fieldset>
         <!-- JuanP -->
@@ -161,9 +168,12 @@
             </div>
           </template>
           <p class="m-0 text-lg sm:text-xl md:text-2xl">
-            <b class="text-base sm:text-lg md:text-xl text-gray-500">Administrador de empresas, con enfasis en programación</b>
+            <b class="text-base sm:text-lg md:text-xl text-gray-500">Administrador de empresas, con enfasis en
+              programación</b>
             <br>
-            Creativo, solidario, determinante, freelancer, responsable, capacidad de trabajar en equipo y liderar procesos de innovación. apasionado por el futbol y los deportes extremos.
+            Creativo, solidario, determinante, freelancer, responsable, capacidad de trabajar en equipo y liderar
+            procesos de
+            innovación. apasionado por el futbol y los deportes extremos.
           </p>
         </Fieldset>
       </div>
@@ -182,13 +192,10 @@ import Avatar from 'primevue/avatar';
 import brayan from '/src/assets/img/avatar/brayan.jpg';
 import nata from '/src/assets/img/avatar/nata.jpg'
 import hoover from '/src/assets/img/avatar/hoover.jpeg'
-//FALTA IMAGEN DE DANI
-// import dani from '/src/assets/img/avatar/colocaraquilaextdelaIMG'
-//FALTA IMG DE CRIS
-// import cristian from '/src/assets/img/avatar/colocaraquilaextdelaIMG'
-//FALTA IMG DE HOOV
-// import hoover from '/src/assets/img/avatar/colocaraquilaextdelaIMG'
-//JP
+import cris from '/src/assets/img/avatar/cris.jpeg'
+
+import dani from '/src/assets/img/avatar/daniela.jpeg'
+
 import jp from '/src/assets/img/avatar/jp.png'
 
 </script>
