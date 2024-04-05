@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-4 max-w-xl mt-12">
+  <div class="container shadow-2xl rounded-lg mb-6 mx-auto p-4 max-w-xl mt-12">
     <h1 class="text-2xl font-bold mb-4">Formulario de Reservación</h1>
     <form @submit.prevent="submitForm">
       <div class="mb-4">
@@ -27,8 +27,11 @@
         <textarea v-model="comentarios" id="comentarios" name="comentarios" rows="3"
           class="mt-1 p-2 border border-gray-300 rounded-md w-full"></textarea>
       </div>
-      <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Enviar
+      <div class="w-full flex justify-center">
+        <button type="submit" class="px-4 py-2 bg-blue-500 text-white text-center rounded-md hover:bg-blue-600">Enviar
         Reservación</button>
+      </div>
+      
     </form>
   </div>
 </template>
