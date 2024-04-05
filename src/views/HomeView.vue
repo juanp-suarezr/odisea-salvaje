@@ -145,10 +145,10 @@
           <div class="item deporte item1">
             <img src="../../src/assets/img/amazonia/lucha.jpg">
             <div class="content">
-              <div class="author fond-bold text-blue-900">REGIÓN</div>
+              <div class="author fond-bold text-white">REGIÓN</div>
               <div class="title text-white">AMAZONÍA</div>
               <div class="topic !text-white">Lucha tradicional</div>
-              <div class="des bg-secondary py-1 px-2">
+              <div class="des bg-option2 py-1 px-2">
 
                 Algunas comunidades indígenas practican estilos de lucha tradicionales que forman parte de su cultura
                 ancestral.
@@ -164,7 +164,7 @@
             <img src="../../src/assets/img/amazonia/Tiro_con_arco.jpg">
             <div class="content">
               <div class="author">REGION</div>
-              <div class="title text-option3">AMAZONÍA</div>
+              <div class="title text-green-800">AMAZONÍA</div>
               <div class="topic !text-white">Tiro con arco</div>
               <div class="des bg-primary py-1 px-2">
 
@@ -183,8 +183,8 @@
             <div class="content">
               <div class="author">REGION</div>
               <div class="title font-bold">AMAZONÍA</div>
-              <div class="topic !text-secondary font-bold">Caza y pesca</div>
-              <div class="des bg-option3 py-1 px-2">
+              <div class="topic !text-red-800 font-bold">Caza y pesca</div>
+              <div class="des bg-option2 py-1 px-2">
                 Aunque no son deportes convencionales, la caza y la pesca son actividades fundamentales para muchas
                 comunidades amazónicas y también pueden ser practicadas como deportes recreativos.
               </div>
@@ -264,8 +264,8 @@
             <div class="content">
               <div class="author text-primary font-bold">REGION</div>
               <div class="title text-secondary">CARIBE</div>
-              <div class="topic !text-option3">Windsurf</div>
-              <div class="des bg-primary">
+              <div class="topic !text-orange-800">Windsurf</div>
+              <div class="des bg-option2">
                 Deporte acuático en el que los participantes se deslizan sobre el agua en una tabla impulsada por el
                 viento. Utilizan una vela montada en un mástil para aprovechar la fuerza del viento y controlar la
                 dirección y la velocidad.
@@ -281,8 +281,8 @@
             <div class="content">
               <div class="author text-secondary font-bold">REGION</div>
               <div class="title">CARIBE</div>
-              <div class="topic !text-option3 !font-bold">Canyoning</div>
-              <div class="des bg-primary">
+              <div class="topic !text-orange-800 !font-bold">Canyoning</div>
+              <div class="des bg-option2">
                 Deporte que consiste en descender por cañones y gargantas utilizando técnicas como rappel, saltos,
                 natación y caminatas. En el Caribe colombiano, esta actividad puede llevarse a cabo en entornos
                 naturales impresionantes, como cascadas y cañones.
@@ -322,7 +322,7 @@
             <img src="../../src/assets/img/caribe/canyoning.jpg">
             <div class="content">
               <div class="title">
-                Caza y pesca deportiva
+                Canyoning
               </div>
               <div class="description">
                 Ver
@@ -383,7 +383,7 @@
             <div class="content">
               <div class="author text-secondary font-bold">REGION</div>
               <div class="title">INSULAR</div>
-              <div class="topic !text-option3 !font-bold">ESCALAR</div>
+              <div class="topic !text-orange-800 !font-bold">ESCALAR</div>
               <div class="des bg-primary">
                 Los escaladores pueden encontrar una variedad de estilos de escalada, desde rutas deportivas bien
                 equipadas hasta desafiantes ascensos tradicionales en grietas y fisuras naturales. Además, muchos
@@ -403,7 +403,7 @@
             <img src="../../src/assets/img/insular/Cuevas.jpg">
             <div class="content">
               <div class="title text-black">
-                Kitesurf
+                Exploración de cuevas
               </div>
               <div class="description">
                 Ver
@@ -414,7 +414,8 @@
             <img src="../../src/assets/img/insular/Salto.png">
             <div class="content">
               <div class="title">
-                Windsurf
+                
+                Saltos de acantilados
               </div>
               <div class="description">
                 Ver
@@ -425,7 +426,7 @@
             <img src="../../src/assets/img/insular/escalar.jpg">
             <div class="content">
               <div class="title">
-                Caza y pesca deportiva
+                Exploración de cuevas
               </div>
               <div class="description">
                 Ver
@@ -466,10 +467,10 @@
           <div class="item deporte item2 hidden">
             <img src="../../src/assets/img/orinoquia/pesca.png">
             <div class="content">
-              <div class="author text-primary font-bold">REGION</div>
-              <div class="title text-secondary">ORINOQUIA</div>
-              <div class="topic !text-option3">Pesca deportiva</div>
-              <div class="des bg-primary">
+              <div class="author text-white font-bold">REGION</div>
+              <div class="title text-white">ORINOQUIA</div>
+              <div class="topic !text-white">Pesca deportiva</div>
+              <div class="des bg-option2">
                 La Orinoquia es conocida por sus ríos ricos en peces, como el dorado, el pavón y el bagre. La pesca
                 deportiva en esta región ofrece la oportunidad de pescar especies de agua dulce en un entorno natural
                 único, proporcionando una experiencia desafiante y gratificante para los amantes de la pesca.
@@ -485,7 +486,7 @@
             <div class="content">
               <div class="author text-secondary font-bold">REGION</div>
               <div class="title">ORINOQUIA</div>
-              <div class="topic !text-option3 !font-bold">Caminatas y expediciones en la sabana</div>
+              <div class="topic !text-black !font-bold">Caminatas en la sabana</div>
               <div class="des bg-primary">
                 Las extensas llanuras de la Orinoquia ofrecen oportunidades para
                 realizar caminatas y expediciones a pie en un entorno natural único. Los viajeros pueden explorar la
@@ -516,7 +517,7 @@
             <img src="../../src/assets/img/orinoquia/pesca.png">
             <div class="content">
               <div class="title">
-                Windsurf
+                Caza deportiva
               </div>
               <div class="description">
                 Ver
@@ -527,7 +528,7 @@
             <img src="../../src/assets/img/orinoquia/Caminatas.jpg">
             <div class="content">
               <div class="title">
-                Caza y pesca deportiva
+                Cabalgata en la sabana
               </div>
               <div class="description">
                 Ver
