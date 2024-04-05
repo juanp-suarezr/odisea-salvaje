@@ -37,12 +37,13 @@
           deportes extremos que te dejarán sin aliento.</h2>
 
         <div class="mt-8 flex justify-center gap-6">
-          <button class="bg-secondary p-4 text-white">
+          <a href="/blog" class="bg-secondary p-4 text-white">
             Conoce Colombia
-          </button>
-          <button class="border-white border-2 p-4 text-white">
+          </a>
+
+          <a href="/contactenos" class="border-white border-2 p-4 text-white">
             Contactenos
-          </button>
+          </a>
         </div>
 
       </div>
@@ -57,7 +58,7 @@
     <router-view />
 
     <footer>
-      <div class="w-screen h-full bg-primary flex flex-col">
+      <div class="w-screen h-full bg-option2 flex flex-col">
         <h2 class="text-xl md:text-2xl text-white font-bold mt-6 mx-auto">Contactenos</h2>
         <p class="text-base md:text-lg text-neutral-400 mx-auto mt-4"><b>Email:</b> <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=odiseaSalvaje@gmail.com">odiseaSalvaje@gmail.com</a>
