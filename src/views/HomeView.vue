@@ -1,7 +1,7 @@
 <template>
   <div class="home">
 
-    <div class="bg-black">
+    <div id="deporte" class="bg-black">
 
       <!-- next prev -->
       <div class="buttons flex justify-center py-2 gap-4">
@@ -145,8 +145,8 @@
           <div class="item deporte item1">
             <img src="../../src/assets/img/amazonia/lucha.jpg">
             <div class="content">
-              <div class="author text-white">REGIÓN</div>
-              <div class="title text-secondary">AMAZONÍA</div>
+              <div class="author fond-bold text-blue-900">REGIÓN</div>
+              <div class="title text-white">AMAZONÍA</div>
               <div class="topic !text-white">Lucha tradicional</div>
               <div class="des bg-secondary py-1 px-2">
 
@@ -244,9 +244,9 @@
             <img src="../../src/assets/img/caribe/kitesurf.jpg">
             <div class="content">
               <div class="author text-white">REGIÓN</div>
-              <div class="title text-secondary">CARIBE</div>
-              <div class="topic !text-option3">Kitesurf</div>
-              <div class="des bg-secondar py-1 px-2">
+              <div class="title text-orange-800">CARIBE</div>
+              <div class="topic !text-black">Kitesurf</div>
+              <div class="des bg-option2 py-1 px-2">
                 <!-- lorem 50 -->
                 Deporte acuático que combina el surf con una cometa de tracción. Los practicantes son impulsados por el
                 viento mientras se deslizan sobre el agua en una tabla especial, utilizando la cometa para controlar la
@@ -344,9 +344,9 @@
             <img src="../../src/assets/img/insular/Cuevas.jpg">
             <div class="content">
               <div class="author text-white">REGIÓN</div>
-              <div class="title text-secondary">INSULAR</div>
-              <div class="topic !text-option3">Exploración de cuevas</div>
-              <div class="des bg-secondar py-1 px-2">
+              <div class="title text-orange-800">INSULAR</div>
+              <div class="topic !text-white">Exploración de cuevas</div>
+              <div class="des bg-option2 py-1 px-2">
                 <!-- lorem 50 -->
                 La exploración de cuevas en Colombia presenta desafíos únicos debido a la diversidad geográfica y
                 climática del país, así como a la necesidad de cuidar el frágil ecosistema subterráneo. Los espeleólogos
@@ -402,7 +402,7 @@
           <div class="item" @click="changeDeporte(1)">
             <img src="../../src/assets/img/insular/Cuevas.jpg">
             <div class="content">
-              <div class="title">
+              <div class="title text-black">
                 Kitesurf
               </div>
               <div class="description">
@@ -447,9 +447,9 @@
             <img src="../../src/assets/img/orinoquia/rafting.jpg">
             <div class="content">
               <div class="author text-white">REGIÓN</div>
-              <div class="title text-secondary">ORINOQUIA</div>
-              <div class="topic !text-option3">Rafting en aguas bravas</div>
-              <div class="des bg-secondar py-1 px-2">
+              <div class="title text-red-800">ORINOQUIA</div>
+              <div class="topic !text-white">Rafting en aguas bravas</div>
+              <div class="des bg-option2 py-1 px-2">
                 <!-- lorem 50 -->
                 Los ríos de la región, como el Meta, el Guaviare y el Orinoco, ofrecen
                 emocionantes tramos de aguas rápidas ideales para el rafting. Esta actividad permite a los participantes
@@ -550,8 +550,8 @@
             <div class="content">
               <div class="author text-white">REGIÓN</div>
               <div class="title text-secondary">PACIFICA</div>
-              <div class="topic !text-option3"> Avistamiento de ballenas</div>
-              <div class="des bg-secondar py-1 px-2">
+              <div class="topic !text-orange-800"> Avistamiento de ballenas</div>
+              <div class="des bg-option2 py-1 px-2">
                 <!-- lorem 50 -->
                 Durante los meses de julio a octubre, las aguas del Pacífico colombiano son
                 visitadas por ballenas jorobadas que migran desde el hemisferio sur en busca de aguas más cálidas para
@@ -568,10 +568,10 @@
           <div class="item deporte item2 hidden">
             <img src="../../src/assets/img/pacifico/surf.jpg">
             <div class="content">
-              <div class="author text-primary font-bold">REGION</div>
-              <div class="title text-secondary">PACIFICA</div>
-              <div class="topic !text-option3">Surf de olas grandes</div>
-              <div class="des bg-primary">
+              <div class="author text-white font-bold">REGION</div>
+              <div class="title text-orange-800">PACIFICA</div>
+              <div class="topic !text-option2">Surf de olas grandes</div>
+              <div class="des bg-option2">
                 La costa del Pacífico colombiano es conocida por sus olas grandes y poderosas, lo
                 que la convierte en un destino ideal para los surfistas intrépidos que buscan emociones fuertes. Lugares
                 como El Valle del Cauca, Chocó y Nariño son populares entre los surfistas que buscan desafiar las olas
@@ -586,10 +586,10 @@
           <div class="item deporte item3 hidden">
             <img src="../../src/assets/img/pacifico/senderismo.jpeg">
             <div class="content">
-              <div class="author text-secondary font-bold">REGION</div>
+              <div class="author text-white font-bold">REGION</div>
               <div class="title">PACIFICA</div>
-              <div class="topic !text-option3 !font-bold">Senderismo en la selva</div>
-              <div class="des bg-primary">
+              <div class="topic !text-red-800 !font-bold">Senderismo en la selva</div>
+              <div class="des bg-option2">
                 La región del Pacífico colombiano alberga una exuberante selva tropical llena de
                 biodiversidad. Realizar senderismo en la selva es una forma única de explorar este ecosistema único,
                 descubriendo cascadas, ríos, flora y fauna impresionantes en el proceso.
