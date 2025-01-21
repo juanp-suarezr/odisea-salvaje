@@ -4,7 +4,7 @@
     <div id="deporte" class="bg-black">
 
       <!-- next prev -->
-      <div class="buttons flex justify-center py-2 gap-4">
+      <div class="buttons flex flex-wrap justify-center py-2 gap-4">
         <!-- ANDINA -->
         <button @click="carrousel(1)" class="bg-option3 rounded-md p-2 shadow-xl text-white hover:scale-125"
           :class="region == 'and' ? '!bg-option2' : ''">
@@ -40,102 +40,88 @@
       <!-- carousel Andina -->
       <div class="carousel slide slide1">
         <!-- list item -->
-        <div class="list">
+        <div class="list flex flex-col md:flex-row">
           <!-- parapente -->
-          <div class="item deporte item1">
-            <img src="../../src/assets/img/andina/parapente.jpg">
-            <div class="content">
+          <div class="item deporte item1 flex-1">
+            <img class="w-full h-auto" src="../../src/assets/img/andina/parapente.jpg">
+            <div class="content p-4">
               <div class="author text-secondary">REGIÓN</div>
               <div class="title text-secondary">ANDINA</div>
-              <div class="topic !text-white">Parapente</div>
-              <div class="des bg-secondary py-1 px-2">
-                <!-- lorem 50 -->
+              <div class="topic text-white">Parapente</div>
+              <div class="des bg-secondary py-1 px-2 text-sm md:text-base text-sm mt-4">
                 Deporte en el que una persona despega desde una pendiente con una vela especialmente diseñada y planea
                 en el aire utilizando corrientes térmicas y ascendentes. Disfrutando de vistas panorámicas y la
                 sensación de libertad que ofrece volar.
-
               </div>
-              <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+              <div class="buttons mt-4">
+                <button @click="reservation" class="bg-primary rounded-md p-2 hover:scale-105 transition-transform">
+                  <p class="text-sm md:text-base">RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
           <!-- escalada -->
-          <div class="item deporte item2 hidden">
-            <img src="../../src/assets/img/andina/escalar1.jpg">
-            <div class="content">
-              <div class="author !text-white">REGIÓN</div>
+          <div class="item deporte item2 flex-1 hidden">
+            <img class="w-full h-auto" src="../../src/assets/img/andina/escalar1.jpg">
+            <div class="content p-4">
+              <div class="author text-white">REGIÓN</div>
               <div class="title text-secondary font-bold">ANDINA</div>
-              <div class="topic !text-white">Escalada en roca</div>
-              <div class="des">
-                consiste en ascender superficies rocosas utilizando técnicas de equilibrio, fuerza y concentración. En
-                la región andina, hay una gran variedad de lugares para practicar la escalada en roca, desde imponentes
-                picos de montañas hasta formaciones rocosas únicas.
+              <div class="topic text-white">Escalada en roca</div>
+              <div class="des text-sm md:text-base text-sm mt-4">
+                Consiste en ascender superficies rocosas utilizando técnicas de equilibrio, fuerza y concentración.
               </div>
-              <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+              <div class="buttons mt-4">
+                <button @click="reservation" class="bg-primary rounded-md p-2 hover:scale-105 transition-transform">
+                  <p class="text-sm md:text-base">RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
           <!-- senderismo -->
-          <div class="item deporte item3 hidden">
-            <img src="../../src/assets/img/andina/senderismo.jpg">
-            <div class="content">
-              <div class="author !text-primary">REGIÓN</div>
+          <div class="item deporte item3 flex-1 hidden">
+            <img class="w-full h-auto" src="../../src/assets/img/andina/senderismo.jpg">
+            <div class="content p-4">
+              <div class="author text-primary">REGIÓN</div>
               <div class="title text-option3">ANDINA</div>
-              <div class="topic !text-option2">Senderismo</div>
-              <div class="des bg-primary py-1 px-2">
-                ofrece una experiencia única en la naturaleza. Los senderos serpentean a través de paisajes
-                impresionantes, desde valles hasta cumbres, con opciones para todos los niveles. Es una forma
-                emocionante de conectar con la naturaleza y explorar uno de los entornos más diversos del país.
+              <div class="topic text-option2">Senderismo</div>
+              <div class="des bg-primary py-1 px-2 text-sm md:text-base text-sm mt-4">
+                Ofrece una experiencia única en la naturaleza, con opciones para todos los niveles.
               </div>
-              <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!-- list thumnail -->
-        <div class="thumbnail justify-end">
-          <div class="item" @click="changeDeporte(1)">
-            <img src="../../src/assets/img/andina/parapente2.jpg">
-            <div class="content">
-              <div class="title">
-                Parapente
-              </div>
-              <div class="description">
-                Ver
+              <div class="buttons mt-4">
+                <button @click="reservation" class="bg-primary rounded-md p-2 hover:scale-105 transition-transform">
+                  <p class="text-sm md:text-base">RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
-          <div class="item" @click="changeDeporte(2)">
-            <img src="../../src/assets/img/andina/escalar.jpg">
-            <div class="content">
-              <div class="title">
-                Escalada en roca
-              </div>
-              <div class="description">
-                Ver
-              </div>
-            </div>
-          </div>
-          <div class="item" @click="changeDeporte(3)">
-            <img src="../../src/assets/img/andina/senderismo1.jpg">
-            <div class="content">
-              <div class="title">
-                Senderismo
-              </div>
-              <div class="description">
-                Ver
-              </div>
-            </div>
-          </div>
-
         </div>
 
-
+        <!-- list thumbnail -->
+        <div class="thumbnail flex justify-end space-x-2 mt-4">
+          <div class="item cursor-pointer" @click="changeDeporte(1)">
+            <img class="w-16 h-auto md:w-24" src="../../src/assets/img/andina/parapente2.jpg">
+            <div class="content text-center">
+              <div class="title text-sm md:text-base">Parapente</div>
+              <div class="description text-xs md:text-sm">Ver</div>
+            </div>
+          </div>
+          <div class="item cursor-pointer" @click="changeDeporte(2)">
+            <img class="w-16 h-auto md:w-24" src="../../src/assets/img/andina/escalar.jpg">
+            <div class="content text-center">
+              <div class="title text-sm md:text-base">Escalada en roca</div>
+              <div class="description text-xs md:text-sm">Ver</div>
+            </div>
+          </div>
+          <div class="item cursor-pointer" @click="changeDeporte(3)">
+            <img class="w-16 h-auto md:w-24" src="../../src/assets/img/andina/senderismo1.jpg">
+            <div class="content text-center">
+              <div class="title text-sm md:text-base">Senderismo</div>
+              <div class="description text-xs md:text-sm">Ver</div>
+            </div>
+          </div>
+        </div>
       </div>
+
 
       <!-- carousel AMAZONÍA -->
       <div class="carousel slide slide2 hidden">
@@ -148,14 +134,16 @@
               <div class="author fond-bold text-white">REGIÓN</div>
               <div class="title text-white">AMAZONÍA</div>
               <div class="topic !text-white">Lucha tradicional</div>
-              <div class="des bg-option2 py-1 px-2">
+              <div class="des bg-option2 py-1 px-2 mt-4">
 
                 Algunas comunidades indígenas practican estilos de lucha tradicionales que forman parte de su cultura
                 ancestral.
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -166,14 +154,16 @@
               <div class="author">REGION</div>
               <div class="title text-green-800">AMAZONÍA</div>
               <div class="topic !text-white">Tiro con arco</div>
-              <div class="des bg-primary py-1 px-2">
+              <div class="des bg-primary py-1 px-2 mt-4">
 
                 El tiro con arco es una habilidad importante para la caza y la pesca en la Amazonía, y a menudo se
                 convierte en un deporte de competición entre las comunidades.
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -184,12 +174,14 @@
               <div class="author">REGION</div>
               <div class="title font-bold">AMAZONÍA</div>
               <div class="topic !text-red-800 font-bold">Caza y pesca</div>
-              <div class="des bg-option2 py-1 px-2">
+              <div class="des bg-option2 py-1 px-2 mt-4">
                 Aunque no son deportes convencionales, la caza y la pesca son actividades fundamentales para muchas
                 comunidades amazónicas y también pueden ser practicadas como deportes recreativos.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -246,7 +238,7 @@
               <div class="author text-white">REGIÓN</div>
               <div class="title text-orange-800">CARIBE</div>
               <div class="topic !text-black">Kitesurf</div>
-              <div class="des bg-option2 py-1 px-2">
+              <div class="des bg-option2 py-1 px-2 mt-4">
                 <!-- lorem 50 -->
                 Deporte acuático que combina el surf con una cometa de tracción. Los practicantes son impulsados por el
                 viento mientras se deslizan sobre el agua en una tabla especial, utilizando la cometa para controlar la
@@ -254,7 +246,9 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -265,13 +259,15 @@
               <div class="author text-primary font-bold">REGION</div>
               <div class="title text-secondary">CARIBE</div>
               <div class="topic !text-orange-800">Windsurf</div>
-              <div class="des bg-option2">
+              <div class="des bg-option2 mt-4">
                 Deporte acuático en el que los participantes se deslizan sobre el agua en una tabla impulsada por el
                 viento. Utilizan una vela montada en un mástil para aprovechar la fuerza del viento y controlar la
                 dirección y la velocidad.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -282,13 +278,15 @@
               <div class="author text-secondary font-bold">REGION</div>
               <div class="title">CARIBE</div>
               <div class="topic !text-orange-800 !font-bold">Canyoning</div>
-              <div class="des bg-option2">
+              <div class="des bg-option2 mt-4">
                 Deporte que consiste en descender por cañones y gargantas utilizando técnicas como rappel, saltos,
                 natación y caminatas. En el Caribe colombiano, esta actividad puede llevarse a cabo en entornos
                 naturales impresionantes, como cascadas y cañones.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -346,7 +344,7 @@
               <div class="author text-white">REGIÓN</div>
               <div class="title text-orange-800">INSULAR</div>
               <div class="topic !text-white">Exploración de cuevas</div>
-              <div class="des bg-option2 py-1 px-2">
+              <div class="des bg-option2 py-1 px-2 mt-2">
                 <!-- lorem 50 -->
                 La exploración de cuevas en Colombia presenta desafíos únicos debido a la diversidad geográfica y
                 climática del país, así como a la necesidad de cuidar el frágil ecosistema subterráneo. Los espeleólogos
@@ -355,7 +353,9 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -366,14 +366,16 @@
               <div class="author text-primary font-bold">REGION</div>
               <div class="title text-secondary">INSULAR</div>
               <div class="topic !text-option3">SALTOS DE ACANTILADOS</div>
-              <div class="des bg-primary">
+              <div class="des bg-primary mt-2">
                 Los saltos de acantilados en Colombia no solo ofrecen la emoción de lanzarse al vacío desde alturas
                 impresionantes, sino también la oportunidad de disfrutar de vistas panorámicas espectaculares y de
                 sumergirse en aguas cristalinas. Muchos de estos sitios son destinos turísticos populares, donde los
                 visitantes pueden experimentar la combinación única de aventura y belleza natural que ofrece Colombia.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -384,14 +386,16 @@
               <div class="author text-secondary font-bold">REGION</div>
               <div class="title">INSULAR</div>
               <div class="topic !text-orange-800 !font-bold">ESCALAR</div>
-              <div class="des bg-primary">
+              <div class="des bg-primary mt-2">
                 Los escaladores pueden encontrar una variedad de estilos de escalada, desde rutas deportivas bien
                 equipadas hasta desafiantes ascensos tradicionales en grietas y fisuras naturales. Además, muchos
                 lugares de escalada en Colombia ofrecen opciones para escaladores de todos los niveles, desde
                 principiantes hasta expertos.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -414,7 +418,7 @@
             <img src="../../src/assets/img/insular/Salto.png">
             <div class="content">
               <div class="title">
-                
+
                 Saltos de acantilados
               </div>
               <div class="description">
@@ -450,7 +454,7 @@
               <div class="author text-white">REGIÓN</div>
               <div class="title text-red-800">ORINOQUIA</div>
               <div class="topic !text-white">Rafting en aguas bravas</div>
-              <div class="des bg-option2 py-1 px-2">
+              <div class="des bg-option2 py-1 px-2 mt-4">
                 <!-- lorem 50 -->
                 Los ríos de la región, como el Meta, el Guaviare y el Orinoco, ofrecen
                 emocionantes tramos de aguas rápidas ideales para el rafting. Esta actividad permite a los participantes
@@ -459,7 +463,9 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -470,13 +476,15 @@
               <div class="author text-white font-bold">REGION</div>
               <div class="title text-white">ORINOQUIA</div>
               <div class="topic !text-white">Pesca deportiva</div>
-              <div class="des bg-option2">
+              <div class="des bg-option2 mt-4">
                 La Orinoquia es conocida por sus ríos ricos en peces, como el dorado, el pavón y el bagre. La pesca
                 deportiva en esta región ofrece la oportunidad de pescar especies de agua dulce en un entorno natural
                 único, proporcionando una experiencia desafiante y gratificante para los amantes de la pesca.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -487,14 +495,16 @@
               <div class="author text-secondary font-bold">REGION</div>
               <div class="title">ORINOQUIA</div>
               <div class="topic !text-black !font-bold">Caminatas en la sabana</div>
-              <div class="des bg-primary">
+              <div class="des bg-primary mt-4">
                 Las extensas llanuras de la Orinoquia ofrecen oportunidades para
                 realizar caminatas y expediciones a pie en un entorno natural único. Los viajeros pueden explorar la
                 sabana, observar la vida silvestre y disfrutar de la tranquilidad y la belleza de los paisajes abiertos
                 de la región.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -552,7 +562,7 @@
               <div class="author text-white">REGIÓN</div>
               <div class="title text-secondary">PACIFICA</div>
               <div class="topic !text-orange-800"> Avistamiento de ballenas</div>
-              <div class="des bg-option2 py-1 px-2">
+              <div class="des bg-option2 py-1 px-2 mt-4">
                 <!-- lorem 50 -->
                 Durante los meses de julio a octubre, las aguas del Pacífico colombiano son
                 visitadas por ballenas jorobadas que migran desde el hemisferio sur en busca de aguas más cálidas para
@@ -561,7 +571,9 @@
 
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -572,14 +584,16 @@
               <div class="author text-white font-bold">REGION</div>
               <div class="title text-orange-800">PACIFICA</div>
               <div class="topic !text-option2">Surf de olas grandes</div>
-              <div class="des bg-option2">
+              <div class="des bg-option2 mt-4">
                 La costa del Pacífico colombiano es conocida por sus olas grandes y poderosas, lo
                 que la convierte en un destino ideal para los surfistas intrépidos que buscan emociones fuertes. Lugares
                 como El Valle del Cauca, Chocó y Nariño son populares entre los surfistas que buscan desafiar las olas
                 del Pacífico..
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -590,13 +604,15 @@
               <div class="author text-white font-bold">REGION</div>
               <div class="title">PACIFICA</div>
               <div class="topic !text-red-800 !font-bold">Senderismo en la selva</div>
-              <div class="des bg-option2">
+              <div class="des bg-option2 mt-4">
                 La región del Pacífico colombiano alberga una exuberante selva tropical llena de
                 biodiversidad. Realizar senderismo en la selva es una forma única de explorar este ecosistema único,
                 descubriendo cascadas, ríos, flora y fauna impresionantes en el proceso.
               </div>
               <div class="buttons">
-                <button class="bg-primary rounded-md p-2 mt-4 hover:scale-125"><p>RESERVACIÓN</p></button>
+                <button @click="reservation" class="bg-primary rounded-md p-2 mt-4 hover:scale-125">
+                  <p>RESERVACIÓN</p>
+                </button>
               </div>
             </div>
           </div>
@@ -662,6 +678,11 @@ watch(region, (value) => {
 
 
 });
+
+const reservation = () => {
+  console.log("reservar");
+  window.location.href = '/contactenos';
+}
 
 //cambiar slide regiones
 const carrousel = num => {
@@ -1048,8 +1069,72 @@ header a {
     padding-right: 0;
   }
 
-  .carousel .list .item .content .title {
-    font-size: 30px;
+  .carousel .list .item .title,
+  .carousel .list .item .topic {
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.3em;
   }
+}
+
+@media screen and (max-width: 450px) {
+  .carousel .list .item .content {
+    padding-right: 0;
+  }
+
+  .carousel .list .item .title,
+  .carousel .list .item .topic {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.3em;
+  }
+
+  /* thumbail */
+  .thumbnail {
+    position: absolute;
+    bottom: 90px;
+    padding: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: max-content;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .thumbnail .item {
+    width: 120px;
+    height: 200px;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .thumbnail .item img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .thumbnail .item .content {
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .thumbnail .item .content .title {
+    font-weight: 600;
+  }
+
+  .thumbnail .item .content .description {
+    font-weight: 400;
+  }
+
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div class="w-full h-full fondo2 p-4 flex">
-    <div class="grid grid-cols-2 gap-4 w-full flex m-auto">
+    <div class="sm:grid grid-cols-2 gap-4 w-full flex flex-wrap m-auto">
       <div class="m-auto">
         <Fieldset class="sm:text-2xl md:text-2xl bg-option2" legend="Costumbres"  collapsed="true" :toggleable="true">
-          <p class="m-0 p-4 text-base sm:text-lg md:text-xl text-white">
+          <p class="m-0 p-4 text-sm sm:text-lg md:text-xl text-white">
             En las profundidades de las costumbres colombianas se encuentran la calidez y la solidaridad que
             caracterizan a su gente. Desde las montañas de la Sierra Nevada hasta las llanuras de los Llanos Orientales,
             la hospitalidad es una virtud sagrada. Invitar a un visitante a compartir un plato de sancocho o una arepa
@@ -17,7 +17,7 @@
       </div>
       <div class="m-auto">
         <Fieldset class="sm:text-2xl md:text-2xl bg-option1" legend="Clima" :toggleable="true"  collapsed="true">
-          <p class="m-0 p-4 text-base sm:text-lg md:text-xl text-white">
+          <p class="m-0 p-4 text-sm sm:text-lg md:text-xl text-white">
             En las variadas geografías de Colombia, el clima juega un papel fundamental en la vida diaria de sus
             habitantes. Desde las tierras cálidas de la costa caribeña hasta las frescas montañas de la cordillera de
             los Andes, cada región experimenta sus propias estaciones y fenómenos climáticos. En las tierras bajas del
@@ -30,7 +30,7 @@
       </div>
       <div class="m-auto">
         <Fieldset class="sm:text-2xl md:text-2xl bg-option3" legend="Deportes extremos" :toggleable="true"  collapsed="true">
-          <p class="m-0 p-4 text-base sm:text-lg md:text-xl text-white">
+          <p class="m-0 p-4 text-sm sm:text-lg md:text-xl text-white">
             En Colombia, la pasión por los deportes extremos encuentra su máxima expresión en paisajes desafiantes y
             emocionantes. Desde escalar las cumbres de los Andes hasta surfear las olas del Caribe, cada rincón del país
             ofrece una aventura única. Ya sea lanzándose en parapente sobre valles verdes o surcando rápidos en kayak,
@@ -42,7 +42,7 @@
       </div>
       <div class="m-auto">
         <Fieldset class="sm:text-2xl md:text-2xl bg-primary" collapsed="true" legend="Regiones" :toggleable="true">
-          <p class="m-0 p-4 text-base sm:text-lg md:text-xl text-white">
+          <p class="m-0 p-4 text-sm sm:text-lg md:text-xl text-white">
 
             Colombia se divide en seis principales regiones geográficas, cada una con características únicas y
             distintivas. Al norte, la Región Caribe, bañada por el Mar Caribe, es famosa por sus playas de arena blanca

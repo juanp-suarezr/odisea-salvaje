@@ -75,101 +75,34 @@
       </h3>
 
       <div class="w-full px-6 sm:grid sm:grid-cols-2 gap-4 mt-6">
-        <!-- brayan -->
-        <Fieldset class="border-2 px-4 mb-4">
-          <template #legend>
-            <div class="flex align-items-center pl-2">
-              <Avatar :image="brayan" shape="circle" />
-              <span class="font-bold">Brayan stiven</span>
-            </div>
-          </template>
-          <p class="m-0 text-lg sm:text-xl md:text-2xl">
-            <b class="text-base sm:text-lg md:text-xl text-gray-500">Profesional de sistemas</b>
-            <br>
-            Es una persona comprometida, con disposición, con sentido de pertencia y capacidad para
-            trabajar en equipo e inclinación a la inovación, amante a las motos, tatuajes, al rap y al Downhill.
-          </p>
-        </Fieldset>
-        <!-- Daniela -->
-        <Fieldset class="border-2 px-4 mb-4">
-          <template #legend>
-            <div class="flex align-items-center pl-2">
-              <Avatar :image="dani" shape="circle" />
-              <span class="font-bold">Daniela Bermudez</span>
-            </div>
-          </template>
-          <p class="m-0 text-lg sm:text-xl md:text-2xl">
-            <b class="text-base sm:text-lg md:text-xl text-gray-500">Ingeniera industrial</b>
-            <br>
-            creativa, organizada, puntual, respetuosa y actualmente desarolla Marketing digital, trabajadora en el area
-            comercial de clickpro. Apasionada por el skateboard y senderismo.
-          </p>
-        </Fieldset>
-        <!-- Natalia -->
-        <Fieldset class="border-2 px-4 mb-4">
-          <template #legend>
-            <div class="flex align-items-center pl-2">
-              <Avatar :image="nata" shape="circle" />
-              <span class="font-bold">Nathalia cardona</span>
-            </div>
-          </template>
-          <p class="m-0 text-lg sm:text-xl md:text-2xl">
-            <b class="text-base sm:text-lg md:text-xl text-gray-500">Directora de marketing y scrum Master</b>
-            <br>
-            experta en estrategias de marketing digital con una pasión por la creatividad y la innovación. Ha liderado
-            exitosas
-            campañas que han posicionado nuestra marca en el mercado. Apasionada por el deporte y parapente.
-          </p>
-        </Fieldset>
+        
         <!-- hoover -->
         <Fieldset class="border-2 px-4 mb-4">
           <template #legend>
             <div class="flex align-items-center pl-2">
               <Avatar :image="hoover" shape="circle" />
-              <span class="font-bold">Hoover Becerra</span>
+              <span class="font-bold">Valery Orozco</span>
             </div>
           </template>
           <p class="m-0 text-lg sm:text-xl md:text-2xl">
-            <b class="text-base sm:text-lg md:text-xl text-gray-500">Analista y programador</b>
+            <b class="text-base sm:text-lg md:text-xl text-gray-500">Diseñadora gráfica</b>
             <br>
             Capaz de trabajar tanto de manera independiente como en equipo, colaborando estrechamente con otros
             profesionales
-            para alcanzar los objetivos establecidos. Su curiosidad innata y su disposición para aprender constantemente
-            lo
-            mantienen actualizado con las últimas tendencias y herramientas en el campo de la tecnología.
+            para alcanzar los objetivos establecidos. Su curiosidad innata, creatividad y autenticidad dan vida a cada uno de sus proyectos.
           </p>
         </Fieldset>
-        <!-- Crsitian -->
-        <Fieldset class="border-2 px-4 mb-4">
-          <template #legend>
-            <div class="flex align-items-center pl-2">
-              <Avatar :image="cris" shape="circle" />
-              <span class="font-bold">Cristian ospina</span>
-            </div>
-          </template>
-          <p class="m-0 text-lg sm:text-xl md:text-2xl">
-            <b class="text-base sm:text-lg md:text-xl text-gray-500">Tecnologo Electronico</b>
-            <br>
-            soy un hombre altamente motivado con experiencia demostrada en la tecnologia. Con 5 años de experiencia en
-            áreas de
-            camaras de seguridad, fábricas industriales, casinos, industrias de seguridad. Poseo habilidades sólidas en
-            la
-            electrónica, computación, electricidad, sistemas electricos industriales, así como una capacidad. soy
-            comunicador
-            eficaz y un colaborador en equipo con una pasión por la vida y los buenos momentos. Apasionado por las armas y skateboard.
-          </p>
-        </Fieldset>
+        
         <!-- JuanP -->
         <Fieldset class="border-2 px-4 mb-4">
           <template #legend>
             <div class="flex align-items-center pl-2">
               <Avatar :image="jp" shape="circle" />
-              <span class="font-bold">Juan Pablo Suarez</span>
+              <span class="font-bold">Juan Pablo Suarez Ramirez</span>
             </div>
           </template>
           <p class="m-0 text-lg sm:text-xl md:text-2xl">
-            <b class="text-base sm:text-lg md:text-xl text-gray-500">Administrador de empresas, con enfasis en
-              programación</b>
+            <b class="text-base sm:text-lg md:text-xl text-gray-500">Administrador de empresas  -- tecnología en análisis y desarrollo de software, con más de 5 años de experiencia en el sector tic</b>
             <br>
             Creativo, solidario, determinante, freelancer, responsable, capacidad de trabajar en equipo y liderar
             procesos de
